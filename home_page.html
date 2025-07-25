@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>    
+    <link rel="icon" href="../images/Icon.png" type="image/png">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    
+    <script src="../js/home_page.js"></script>
+    <script src="../js/hero-section.js"></script>
+    <script type=module src="../js/Translate_Home-Page.js"></script>
+    
+    <link rel="stylesheet" href="../css/home_page.css">
+
+    <link rel="stylesheet" href="../css/mainelements.css"> 
+    <script type=module src="../js/mainelements.js"></script>
+
+    <link rel="stylesheet" href="../css/hero-transitions.css">
+
+</head>
+
+
+
+<body>
+    
+
+        <loading-screen></loading-screen>
+
+    <my-header></my-header>
+          
+              
+
+
+        <div id="banner-container">
+
+ <section class="hero-section" id="homeSection">
+    <div class="hero-background" id="heroBackground"></div>
+    <div class="hero-content">
+        <div class="hero-info">
+            <div class="hero-title"></div>
+            <div class="hero-meta"></div>
+            <p class="hero-description" id="heroDescription"></p>
+            <div class="hero-buttons">
+                <button id="tr">Watch Trailer</button>
+                <button id="movie">Play Movie</button>
+            </div>
+        </div>
+    </div>
+    <div class="nav-dots" id="navDots" role="tablist"></div>
+</section>
+
+    </div>
+
+
+    
+    <section class="Genres">
+     <h2 class="title-genre" id="trending">Trending Now</h2>        <div class="movie-row-container debug-scroll">
+           <!-- Left Arrow -->
+           <button class="nav-arrow left">
+            <span class="material-symbols-outlined notranslate">chevron_left</span>
+          </button>
+            
+            <div class="Trending-Movies-section">
+                <div class="cover-movies" id="trending-movies">
+                    <a href="godfather2 movie-page.html">
+                        <img src="../images/The Godfather Part II.jpg" alt="The Godfather Part II">
+                        <div class="movie-info">
+                            <h3>The Godfather Part II</h3>
+                            <div class="meta">Crime | R | 1974</div>
+                            <p class="director"><strong>Director:</strong> Francis Ford Coppola</p>
+                            <p class="cast"><strong>Cast:</strong> Al Pacino, Robert De Niro, Robert Duvall</p>
+                            <p>Michael expands the family business while the film simultaneously tracks young Vito Corleone's rise as a mafia boss.</p>
+                        </div>
+                    </a>
+                    
+                    <a href="godfather3 movie-page.html">
+                        <img src="../images/The Godfather Part III.jpg" alt="The Godfather Part III">
+                        <div class="movie-info">
+                            <h3>The Godfather Part III</h3>
+                            <div class="meta">Crime | R | 1990</div>
+                            <p class="director"><strong>Director:</strong> Francis Ford Coppola</p>
+                            <p class="cast"><strong>Cast:</strong> Al Pacino, Diane Keaton, Andy Garcia</p>
+                            <p>An aging Michael Corleone seeks to legitimize his crime family and find a suitable successor.</p>
+                        </div>
+                    </a>
+                    
+                    <a href="Scarface.html">
+                        <img src="../images/Scarface.jpg" alt="Scarface">
+                        <div class="movie-info">
+                            <h3>Scarface</h3>
+                            <div class="meta">Crime | R | 1983</div>
+                            <p class="director"><strong>Director:</strong> Brian De Palma</p>
+                            <p class="cast"><strong>Cast:</strong> Al Pacino, Michelle Pfeiffer, Steven Bauer</p>
+                            <p>In Miami in 1980, a determined Cuban immigrant takes over a drug cartel and succumbs to greed.</p>
+                        </div>
+                    </a>
+                    
+                    <a href="taxi-driver movie-page.html">
+                        <img src="../images/Taxi Driver.jpg" alt="Taxi Driver">
+                        <div class="movie-info">
+                            <h3>Taxi Driver</h3>
+                            <div class="meta">Drama | R | 1976</div>
+                            <p class="director"><strong>Director:</strong> Martin Scorsese</p>
+                            <p class="cast"><strong>Cast:</strong> Robert De Niro, Jodie Foster, Cybill Shepherd</p>
+                            <p>A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City.</p>
+                        </div>
+                    </a>
+                    
+                    <a href="John-wick.html">
+                        <img src="../images/John Wick.jpg" alt="John Wick">
+                        <div class="movie-info">
+                            <h3>John Wick</h3>
+                            <div class="meta">Action | R | 2014</div>
+                            <p class="director"><strong>Director:</strong> Chad Stahelski</p>
+                            <p class="cast"><strong>Cast:</strong> Keanu Reeves, Michael Nyqvist, Alfie Allen</p>
+                            <p>An ex-hitman comes out of retirement to track down the gangsters who killed his dog.</p>
+                        </div>
+                    </a>
+                    
+                    <a href="John-wick2.html">
+                        <img src="../images/John Wick Chapter 2.jpg" alt="John Wick:Chapter 2">
+                        <div class="movie-info">
+                            <h3>John Wick: Chapter 2</h3>
+                            <div class="meta">Action | R | 2017</div>
+                            <p class="director"><strong>Director:</strong> Chad Stahelski</p>
+                            <p class="cast"><strong>Cast:</strong> Keanu Reeves, Riccardo Scamarcio, Common</p>
+                            <p>John Wick is forced out of retirement by a former associate looking to seize control of an international assassins' guild.</p>
+                        </div>
+                    </a>
+                    
+                    <a href="John-wick3.html">
+                        <img src="../images/John Wick Chapter 3 -Parabellum.jpg" alt="John Wick Chapter 3-Parabellum" loading="lazy">
+                        <div class="movie-info">
+                            <h3>John Wick: Chapter 3 - Parabellum</h3>
+                            <div class="meta">Action | R | 2019</div>
+                            <p class="director"><strong>Director:</strong> Chad Stahelski</p>
+                            <p class="cast"><strong>Cast:</strong> Keanu Reeves, Halle Berry, Ian McShane</p>
+                            <p>John Wick is on the run after killing a member of the international assassins' guild with a $14 million bounty on his head.</p>
+                        </div>
+                    </a>
+                    
+                    <a href="John-wick4.html">
+                        <img src="../images/John Wick Chapter 4.jpg" alt="John Wick Chapter 4">
+                        <div class="movie-info">
+                            <h3>John Wick: Chapter 4</h3>
+                            <div class="meta">Action | R | 2023</div>
+                            <p class="director"><strong>Director:</strong> Chad Stahelski</p>
+                            <p class="cast"><strong>Cast:</strong> Keanu Reeves, Donnie Yen, Bill Skarsgård</p>
+                            <p>John Wick uncovers a path to defeating The High Table, but must face a new enemy with powerful alliances.</p>
+    
+    
+    
+                            
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Right Arrow -->
+            <button class="nav-arrow right">
+                <span class="material-symbols-outlined notranslate">chevron_right</span>
+              </button>
+            </div>
+    </section>
+    
+
+
+
+
+    <section class="Genres">
+        <h2 class="title-genre" id="adventure">Adventure</h2>
+        <div class="movie-row-container">
+            <button class="nav-arrow left" onclick="scrollMovies('left', 'adventure-movies-1')" data-target="adventure-movies-1">
+                <span class="material-symbols-outlined notranslate">chevron_left</span>
+            </button>
+            
+            <div class="Adventure-Movies-section">
+                <div class="cover-movies" id="adventure-movies-1">
+                    <a href="#">
+                        <img src="../images/Spider-Man.jpg" alt="Spider-Man">
+                        <div class="movie-info">
+                            <h3>Spider-Man</h3>
+                            <div class="meta">Action | PG-13 | 2002</div>
+                            <p class="director"><strong>Director:</strong> Sam Raimi</p>
+                            <p class="cast"><strong>Cast:</strong> Tobey Maguire, Willem Dafoe, Kirsten Dunst</p>
+                            <p>When bitten by a genetically-altered spider, nerdy high school student Peter Parker is endowed with amazing powers.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Spider-Man 2 .jpg" alt="Spider-Man 2">
+                        <div class="movie-info">
+                            <h3>Spider-Man 2</h3>
+                            <div class="meta">Action | PG-13 | 2004</div>
+                            <p class="director"><strong>Director:</strong> Sam Raimi</p>
+                            <p class="cast"><strong>Cast:</strong> Tobey Maguire, Alfred Molina, Kirsten Dunst</p>
+                            <p>Peter Parker struggles to balance his responsibilities as Spider-Man and his personal life while facing a new foe, Dr. Octopus.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Spider-Man 3.jpg" alt="Spider-Man 3">
+                        <div class="movie-info">
+                            <h3>Spider-Man 3</h3>
+                            <div class="meta">Action | PG-13 | 2007</div>
+                            <p class="director"><strong>Director:</strong> Sam Raimi</p>
+                            <p class="cast"><strong>Cast:</strong> Tobey Maguire, James Franco, Thomas Haden Church</p>
+                            <p>Spider-Man faces his darkest hour when a mysterious alien symbiote bonds with him, creating a new and dangerous version of himself.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Spiderman Homecoming.jpg" alt="Spider-Man: Homecoming">
+                        <div class="movie-info">
+                            <h3>Spider-Man: Homecoming</h3>
+                            <div class="meta">Action | PG-13 | 2017</div>
+                            <p class="director"><strong>Director:</strong> Jon Watts</p>
+                            <p class="cast"><strong>Cast:</strong> Tom Holland, Michael Keaton, Robert Downey Jr.</p>
+                            <p>After his time with the Avengers, Peter Parker faces a new villain, Vulture, while trying to balance being a high school student and a superhero.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Spider-Man Far From Home.jpg" alt="Spider-Man: Far From Home">
+                        <div class="movie-info">
+                            <h3>Spider-Man: Far From Home</h3>
+                            <div class="meta">Action | PG-13 | 2019</div>
+                            <p class="director"><strong>Director:</strong> Jon Watts</p>
+                            <p class="cast"><strong>Cast:</strong> Tom Holland, Jake Gyllenhaal, Zendaya</p>
+                            <p>Peter Parker embarks on a European trip with his classmates, but his vacation is interrupted by the arrival of a new villain, Mysterio.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Spiderman no way home.jpg" alt="Spider-Man: No Way Home">
+                        <div class="movie-info">
+                            <h3>Spider-Man: No Way Home</h3>
+                            <div class="meta">Action | PG-13 | 2021</div>
+                            <p class="director"><strong>Director:</strong> Jon Watts</p>
+                            <p class="cast"><strong>Cast:</strong> Tom Holland, Benedict Cumberbatch, Zendaya</p>
+                            <p>Spider-Man's life turns upside down when a spell from Doctor Strange goes wrong, opening the multiverse and bringing villains from other dimensions.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/The amazing spiderman.jpg" alt="The Amazing Spider-Man">
+                        <div class="movie-info">
+                            <h3>The Amazing Spider-Man</h3>
+                            <div class="meta">Action | PG-13 | 2012</div>
+                            <p class="director"><strong>Director:</strong> Marc Webb</p>
+                            <p class="cast"><strong>Cast:</strong> Andrew Garfield, Emma Stone, Rhys Ifans</p>
+                            <p>Peter Parker uncovers a mystery involving his father's past while becoming the superhero Spider-Man and fighting the Lizard.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/the amazing spider man 2.jpg" alt="The Amazing Spider-Man 2">
+                        <div class="movie-info">
+                            <h3>The Amazing Spider-Man 2</h3>
+                            <div class="meta">Action | PG-13 | 2014</div>
+                            <p class="director"><strong>Director:</strong> Marc Webb</p>
+                            <p class="cast"><strong>Cast:</strong> Andrew Garfield, Emma Stone, Jamie Foxx</p>
+                            <p>Peter Parker faces new threats, including the villain Electro, while trying to protect his loved ones from the dangers of being Spider-Man.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <button class="nav-arrow right" onclick="scrollMovies('right', 'adventure-movies-1')" data-target="adventure-movies-1">
+                <span class="material-symbols-outlined notranslate">chevron_right</span>
+            </button>
+        </div>
+    </section>
+    
+
+    <section class="Genres">
+        <h2 class="title-genre" id="romance">Romance</h2>
+        <div class="movie-row-container">
+            <button class="nav-arrow left" onclick="scrollMovies('left', 'romance-movies-1')" data-target="romance-movies-1">
+                <span class="material-symbols-outlined notranslate">chevron_left</span>
+            </button>
+            
+            <div class="Romance-Movies-section">
+                <div class="cover-movies" id="romance-movies-1">
+                    <a href="#">
+                        <img src="../images/Fifty Shades Of Grey.jpg" alt="Fifty Shades of Grey">
+                        <div class="movie-info">
+                            <h3>Fifty Shades of Grey</h3>
+                            <div class="meta">Romance | R | 2015</div>
+                            <p class="director"><strong>Director:</strong> Sam Taylor-Johnson</p>
+                            <p class="cast"><strong>Cast:</strong> Dakota Johnson, Jamie Dornan, Jennifer Ehle</p>
+                            <p>A college graduate enters into a daring relationship with a billionaire businessman, and they begin to explore each other's desires.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Focus.jpg" alt="Focus">
+                        <div class="movie-info">
+                            <h3>Focus</h3>
+                            <div class="meta">Romance | R | 2015</div>
+                            <p class="director"><strong>Director:</strong> Glenn Ficarra, John Requa</p>
+                            <p class="cast"><strong>Cast:</strong> Will Smith, Margot Robbie, Rodrigo Santoro</p>
+                            <p>A seasoned con artist takes a novice under his wing, but their relationship becomes complicated when a romantic entanglement emerges.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/La La Land.jpeg" alt="La La Land">
+                        <div class="movie-info">
+                            <h3>La La Land</h3>
+                            <div class="meta">Romance | PG-13 | 2016</div>
+                            <p class="director"><strong>Director:</strong> Damien Chazelle</p>
+                            <p class="cast"><strong>Cast:</strong> Ryan Gosling, Emma Stone, John Legend</p>
+                            <p>A jazz musician and an aspiring actress fall in love, but their differing ambitions challenge their relationship.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Titanic.jpg" alt="Titanic">
+                        <div class="movie-info">
+                            <h3>Titanic</h3>
+                            <div class="meta">Romance | PG-13 | 1997</div>
+                            <p class="director"><strong>Director:</strong> James Cameron</p>
+                            <p class="cast"><strong>Cast:</strong> Leonardo DiCaprio, Kate Winslet, Billy Zane</p>
+                            <p>Two lovers from different social backgrounds fall for each other on the ill-fated RMS Titanic during its maiden voyage.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Anyone But You.jpg" alt="Anyone But You">
+                        <div class="movie-info">
+                            <h3>Anyone But You</h3>
+                            <div class="meta">Romance | PG-13 | 2000</div>
+                            <p class="director"><strong>Director:</strong> Toru Kubo</p>
+                            <p class="cast"><strong>Cast:</strong> Yoo Seung-ho, Moon Geun-young</p>
+                            <p>A love story between two high school students who don't get along but eventually find themselves falling for each other.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Killers Of The Flower Moon.jpg" alt="Killers of the Flower Moon">
+                        <div class="movie-info">
+                            <h3>Killers of the Flower Moon</h3>
+                            <div class="meta">Romance | R | 2023</div>
+                            <p class="director"><strong>Director:</strong> Martin Scorsese</p>
+                            <p class="cast"><strong>Cast:</strong> Leonardo DiCaprio, Robert De Niro, Lily Gladstone</p>
+                            <p>The Osage murders in the 1920s lead to a chilling investigation, and a love story becomes central to the uncovering of secrets.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Fly Me To The Moon.jpg" alt="Fly Me To the Moon">
+                        <div class="movie-info">
+                            <h3>Fly Me to the Moon</h3>
+                            <div class="meta">Romance | PG | 2008</div>
+                            <p class="director"><strong>Director:</strong> Mark Henn</p>
+                            <p class="cast"><strong>Cast:</strong> Christopher Lloyd, Kelly Ripa, Trevor Gagnon</p>
+                            <p>Three teenage flies embark on an adventure to the moon during the Apollo 11 mission and discover love along the way.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Knight And Day.jpg" alt="Knight and Day">
+                        <div class="movie-info">
+                            <h3>Knight and Day</h3>
+                            <div class="meta">Romance | PG-13 | 2010</div>
+                            <p class="director"><strong>Director:</strong> James Mangold</p>
+                            <p class="cast"><strong>Cast:</strong> Tom Cruise, Cameron Diaz, Peter Sarsgaard</p>
+                            <p>A woman is swept off her feet by a mysterious man who turns out to be a secret agent, leading to a thrilling adventure.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <button class="nav-arrow right" onclick="scrollMovies('right', 'romance-movies-1')" data-target="romance-movies-1">
+                <span class="material-symbols-outlined notranslate">chevron_right</span>
+            </button>
+        </div>
+    </section>
+    
+
+    <section class="Genres">
+        <h2 class="title-genre"id="action">Action</h2>
+        <div class="movie-row-container">
+            <button class="nav-arrow left" onclick="scrollMovies('left', 'action-movies')" data-target="action-movies">
+                <span class="material-symbols-outlined notranslate">chevron_left</span>
+            </button>
+    
+            <div class="Action-Movies-section">
+                <div class="cover-movies" id="action-movies">
+                    <a href="#">
+                        <img src="../images/Mad Max Fury Road.jpg" alt="Mad Max: Fury Road">
+                        <div class="movie-info">
+                            <h3>Mad Max: Fury Road</h3>
+                            <div class="meta">Action | R | 2015</div>
+                            <p class="director"><strong>Director:</strong> George Miller</p>
+                            <p class="cast"><strong>Cast:</strong> Tom Hardy, Charlize Theron, Nicholas Hoult</p>
+                            <p>In a dystopian future, Max teams up with Furiosa to escape a tyrannical warlord and his army.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Die Hard.jpg" alt="Die Hard">
+                        <div class="movie-info">
+                            <h3>Die Hard</h3>
+                            <div class="meta">Action | R | 1988</div>
+                            <p class="director"><strong>Director:</strong> John McTiernan</p>
+                            <p class="cast"><strong>Cast:</strong> Bruce Willis, Alan Rickman, Bonnie Bedelia</p>
+                            <p>A New York cop battles terrorists who have taken hostages in a Los Angeles skyscraper on Christmas Eve.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Gladiator.png" alt="Gladiator">
+                        <div class="movie-info">
+                            <h3>Gladiator</h3>
+                            <div class="meta">Action | R | 2000</div>
+                            <p class="director"><strong>Director:</strong> Ridley Scott</p>
+                            <p class="cast"><strong>Cast:</strong> Russell Crowe, Joaquin Phoenix, Connie Nielsen</p>
+                            <p>A betrayed Roman general seeks revenge against the corrupt emperor who murdered his family and sent him into slavery.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Extraction.jpg" alt="Extraction">
+                        <div class="movie-info">
+                            <h3>Extraction</h3>
+                            <div class="meta">Action | R | 2020</div>
+                            <p class="director"><strong>Director:</strong> Sam Hargrave</p>
+                            <p class="cast"><strong>Cast:</strong> Chris Hemsworth, Rudhraksh Jaiswal, Randeep Hooda</p>
+                            <p>A black ops mercenary's mission to save an Indian crime lord's kidnapped son goes awry when he is double-crossed.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/The Dark Knight.jpg" alt="The Dark Knight">
+                        <div class="movie-info">
+                            <h3>The Dark Knight</h3>
+                            <div class="meta">Action | PG-13 | 2008</div>
+                            <p class="director"><strong>Director:</strong> Christopher Nolan</p>
+                            <p class="cast"><strong>Cast:</strong> Christian Bale, Heath Ledger, Aaron Eckhart</p>
+                            <p>Batman sets out to stop the Joker, a criminal mastermind who seeks to create chaos in Gotham City.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Inception.jpg" alt="Inception">
+                        <div class="movie-info">
+                            <h3>Inception</h3>
+                            <div class="meta">Action | PG-13 | 2010</div>
+                            <p class="director"><strong>Director:</strong> Christopher Nolan</p>
+                            <p class="cast"><strong>Cast:</strong> Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page</p>
+                            <p>A thief who enters the dreams of others to steal secrets must perform an inception on his final job.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/The Next Three Days.jpg" alt="The Next Three Days">
+                        <div class="movie-info">
+                            <h3>The Next Three Days</h3>
+                            <div class="meta">Action | PG-13 | 2010</div>
+                            <p class="director"><strong>Director:</strong> Paul Haggis</p>
+                            <p class="cast"><strong>Cast:</strong> Russell Crowe, Elizabeth Banks, Liam Neeson</p>
+                            <p>A man plans the escape of his wife, who has been convicted of a murder she did not commit.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Mission Impossible Fallout.jpg" alt="Mission Impossible: Fallout">
+                        <div class="movie-info">
+                            <h3>Mission Impossible: Fallout</h3>
+                            <div class="meta">Action | PG-13 | 2018</div>
+                            <p class="director"><strong>Director:</strong> Christopher McQuarrie</p>
+                            <p class="cast"><strong>Cast:</strong> Tom Cruise, Henry Cavill, Ving Rhames</p>
+                            <p>After a mission goes awry, Ethan Hunt must race against time to stop a nuclear disaster while dealing with old friends and enemies.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    
+            <button class="nav-arrow right" onclick="scrollMovies('right', 'action-movies')" data-target="action-movies">
+                <span class="material-symbols-outlined notranslate">chevron_right</span>
+            </button>
+        </div>
+    </section>
+    
+
+    <section class="Genres">
+        <h2 class="title-genre" id="comedy">Comedy</h2>
+        <div class="movie-row-container">
+            <button class="nav-arrow left" onclick="scrollMovies('left', 'comedy-movies')" data-target="comedy-movies">
+                <span class="material-symbols-outlined notranslate">chevron_left</span>
+            </button>
+    
+            <div class="Comedy-Movies-section">
+                <div class="cover-movies" id="comedy-movies">
+                    <a href="#">
+                        <img src="../images/The Hangover.jpg" alt="The Hangover">
+                        <div class="movie-info">
+                            <h3>The Hangover</h3>
+                            <div class="meta">Comedy | R | 2009</div>
+                            <p class="director"><strong>Director:</strong> Todd Phillips</p>
+                            <p class="cast"><strong>Cast:</strong> Bradley Cooper, Ed Helms, Zach Galifianakis</p>
+                            <p>Three friends wake up from a bachelor party in Las Vegas with no memory of the previous night and a missing groom.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Superbad.jpg" alt="Superbad">
+                        <div class="movie-info">
+                            <h3>Superbad</h3>
+                            <div class="meta">Comedy | R | 2007</div>
+                            <p class="director"><strong>Director:</strong> Greg Mottola</p>
+                            <p class="cast"><strong>Cast:</strong> Jonah Hill, Michael Cera, Seth Rogen</p>
+                            <p>Two high school friends try to make the most of their last days before graduation, including an unforgettable party.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/21 Jump Street.jpg" alt="21 Jump Street">
+                        <div class="movie-info">
+                            <h3>21 Jump Street</h3>
+                            <div class="meta">Comedy | R | 2012</div>
+                            <p class="director"><strong>Director:</strong> Phil Lord, Christopher Miller</p>
+                            <p class="cast"><strong>Cast:</strong> Jonah Hill, Channing Tatum, Ice Cube</p>
+                            <p>Two underachieving cops are sent back to high school to go undercover and stop a drug ring.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/deadpool & wolverine.jpg" alt="Deadpool & Wolverine">
+                        <div class="movie-info">
+                            <h3>Deadpool & Wolverine</h3>
+                            <div class="meta">Comedy | R | 2016</div>
+                            <p class="director"><strong>Director:</strong> Tim Miller</p>
+                            <p class="cast"><strong>Cast:</strong> Ryan Reynolds, Hugh Jackman, Morena Baccarin</p>
+                            <p>A fast-talking, irreverent antihero goes on a mission to track down the man who tortured him and gave him his superhuman abilities.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/We're_the_Millers.jpg" alt="We're the Millers">
+                        <div class="movie-info">
+                            <h3>We're the Millers</h3>
+                            <div class="meta">Comedy | R | 2013</div>
+                            <p class="director"><strong>Director:</strong> Rawson Marshall Thurber</p>
+                            <p class="cast"><strong>Cast:</strong> Jennifer Aniston, Jason Sudeikis, Emma Roberts</p>
+                            <p>A small-time pot dealer creates a fake family to help smuggle a large shipment of marijuana across the border.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/StepBrothers.jpg" alt="Step Brothers">
+                        <div class="movie-info">
+                            <h3>Step Brothers</h3>
+                            <div class="meta">Comedy | R | 2008</div>
+                            <p class="director"><strong>Director:</strong> Adam McKay</p>
+                            <p class="cast"><strong>Cast:</strong> Will Ferrell, John C. Reilly, Mary Steenburgen</p>
+                            <p>Two middle-aged men become stepbrothers when their single parents marry, leading to hilarious conflicts as they struggle to coexist.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/The Mask.jpg" alt="The Mask">
+                        <div class="movie-info">
+                            <h3>The Mask</h3>
+                            <div class="meta">Comedy | PG-13 | 1994</div>
+                            <p class="director"><strong>Director:</strong> Chuck Russell</p>
+                            <p class="cast"><strong>Cast:</strong> Jim Carrey, Cameron Diaz, Peter Riegert</p>
+                            <p>A bank clerk discovers a mysterious mask that grants him superhuman abilities and a mischievous alter ego.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Crazy Rich Asians.jpg" alt="Crazy Rich Asians">
+                        <div class="movie-info">
+                            <h3>Crazy Rich Asians</h3>
+                            <div class="meta">Comedy | PG-13 | 2018</div>
+                            <p class="director"><strong>Director:</strong> Jon M. Chu</p>
+                            <p class="cast"><strong>Cast:</strong> Constance Wu, Henry Golding, Michelle Yeoh</p>
+                            <p>A woman discovers that her boyfriend is extremely wealthy and must navigate the challenges of his high-society family in Singapore.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    
+            <button class="nav-arrow right" onclick="scrollMovies('right', 'comedy-movies')" data-target="comedy-movies">
+                <span class="material-symbols-outlined notranslate">chevron_right</span>
+            </button>
+        </div>
+    </section>
+    
+
+    <section class="Genres">
+        <h2 class="title-genre" id="horror">Horror</h2>
+        <div class="movie-row-container">
+            <button class="nav-arrow left" onclick="scrollMovies('left', 'horror-movies')" data-target="horror-movies">
+                <span class="material-symbols-outlined notranslate">chevron_left</span>
+            </button>
+    
+            <div class="Horror-Movies-section">
+                <div class="cover-movies" id="horror-movies">
+                    <a href="#">
+                        <img src="../images/The Conjuring.jpg" alt="The Conjuring">
+                        <div class="movie-info">
+                            <h3>The Conjuring</h3>
+                            <div class="meta">Horror | R | 2013</div>
+                            <p class="director"><strong>Director:</strong> James Wan</p>
+                            <p class="cast"><strong>Cast:</strong> Vera Farmiga, Patrick Wilson, Lili Taylor</p>
+                            <p>The true story of the Perron family, who experienced disturbing events after moving into a haunted farmhouse.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Insidious.jpg" alt="Insidious">
+                        <div class="movie-info">
+                            <h3>Insidious</h3>
+                            <div class="meta">Horror | PG-13 | 2010</div>
+                            <p class="director"><strong>Director:</strong> James Wan</p>
+                            <p class="cast"><strong>Cast:</strong> Patrick Wilson, Rose Byrne, Lin Shaye</p>
+                            <p>A family struggles with disturbing events in their home, leading them to discover their son has entered a supernatural realm.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/hereditary.jpeg" alt="Hereditary">
+                        <div class="movie-info">
+                            <h3>Hereditary</h3>
+                            <div class="meta">Horror | R | 2018</div>
+                            <p class="director"><strong>Director:</strong> Ari Aster</p>
+                            <p class="cast"><strong>Cast:</strong> Toni Collette, Alex Wolff, Milly Shapiro</p>
+                            <p>After the death of their secretive grandmother, a family uncovers terrifying secrets about their ancestry.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/It.jpg" alt="It">
+                        <div class="movie-info">
+                            <h3>It</h3>
+                            <div class="meta">Horror | R | 2017</div>
+                            <p class="director"><strong>Director:</strong> Andy Muschietti</p>
+                            <p class="cast"><strong>Cast:</strong> Bill Skarsgård, Jaeden Lieberher, Finn Wolfhard</p>
+                            <p>A group of misfit kids confronts their deepest fears when they come face-to-face with a terrifying entity that takes the form of a clown.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Annabelle.jpg" alt="Annabelle" loading="lazy">
+                        <div class="movie-info">
+                            <h3>Annabelle</h3>
+                            <div class="meta">Horror | R | 2014</div>
+                            <p class="director"><strong>Director:</strong> John R. Leonetti</p>
+                            <p class="cast"><strong>Cast:</strong> Annabelle Wallis, Ward Horton, Alfre Woodard</p>
+                            <p>A couple's life turns into a nightmare when a possessed doll named Annabelle begins terrorizing their home.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/A Quiet Place.jpg" alt="A Quiet Place" loading="lazy">
+                        <div class="movie-info">
+                            <h3>A Quiet Place</h3>
+                            <div class="meta">Horror | PG-13 | 2018</div>
+                            <p class="director"><strong>Director:</strong> John Krasinski</p>
+                            <p class="cast"><strong>Cast:</strong> Emily Blunt, John Krasinski, Millicent Simmonds</p>
+                            <p>A family must live in silence to avoid mysterious creatures that hunt by sound.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Smile.jpg" alt="Smile">
+                        <div class="movie-info">
+                            <h3>Smile</h3>
+                            <div class="meta">Horror | R | 2022</div>
+                            <p class="director"><strong>Director:</strong> Parker Finn</p>
+                            <p class="cast"><strong>Cast:</strong> Sosie Bacon, Jessie T. Usher, Kyle Gallner</p>
+                            <p>A psychologist becomes embroiled in a series of unsettling events after witnessing a traumatic incident involving a patient.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Get Out.jpg" alt="Get Out">
+                        <div class="movie-info">
+                            <h3>Get Out</h3>
+                            <div class="meta">Horror | R | 2017</div>
+                            <p class="director"><strong>Director:</strong> Jordan Peele</p>
+                            <p class="cast"><strong>Cast:</strong> Daniel Kaluuya, Allison Williams, Bradley Whitford</p>
+                            <p>A young African-American man visits his white girlfriend's family estate and uncovers disturbing secrets.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    
+            <button class="nav-arrow right" onclick="scrollMovies('right', 'horror-movies')" data-target="horror-movies">
+                <span class="material-symbols-outlined notranslate">chevron_right</span>
+            </button>
+        </div>
+    </section>
+    
+    <section class="Genres">
+        <h2 class="title-genre" id="scifi">Sci-Fi</h2>
+        <div class="movie-row-container">
+            <button class="nav-arrow left" onclick="scrollMovies('left', 'sci-fi-movies')" data-target="sci-fi-movies">
+                <span class="material-symbols-outlined notranslate">chevron_left</span>
+            </button>
+    
+            <div class="SciFi-Movies-section">
+                <div class="cover-movies" id="sci-fi-movies">
+                    <a href="#">
+                        <img src="../images/Interstellar.jpg" alt="Interstellar">
+                        <div class="movie-info">
+                            <h3>Interstellar</h3>
+                            <div class="meta">Sci-Fi | PG-13 | 2014</div>
+                            <p class="director"><strong>Director:</strong> Christopher Nolan</p>
+                            <p class="cast"><strong>Cast:</strong> Matthew McConaughey, Anne Hathaway, Jessica Chastain</p>
+                            <p>A group of explorers ventures into a wormhole in space to ensure humanity's survival as Earth faces environmental collapse.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/The Matrix.jpg" alt="The Matrix">
+                        <div class="movie-info">
+                            <h3>The Matrix</h3>
+                            <div class="meta">Sci-Fi | R | 1999</div>
+                            <p class="director"><strong>Director:</strong> The Wachowskis</p>
+                            <p class="cast"><strong>Cast:</strong> Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss</p>
+                            <p>A hacker discovers that the world he lives in is a simulated reality controlled by machines, and joins a rebellion against them.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Avatar.jpg" alt="Avatar" loading="lazy">
+                        <div class="movie-info">
+                            <h3>Avatar</h3>
+                            <div class="meta">Sci-Fi | PG-13 | 2009</div>
+                            <p class="director"><strong>Director:</strong> James Cameron</p>
+                            <p class="cast"><strong>Cast:</strong> Sam Worthington, Zoe Saldana, Sigourney Weaver</p>
+                            <p>A paraplegic Marine is sent to the planet Pandora, where he becomes part of a mission to mine its resources and learns to empathize with its native people.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Edge of Tomorrow.jpg" alt="Edge of Tomorrow" loading="lazy">
+                        <div class="movie-info">
+                            <h3>Edge of Tomorrow</h3>
+                            <div class="meta">Sci-Fi | PG-13 | 2014</div>
+                            <p class="director"><strong>Director:</strong> Doug Liman</p>
+                            <p class="cast"><strong>Cast:</strong> Tom Cruise, Emily Blunt, Bill Paxton</p>
+                            <p>A military officer is caught in a time loop during a war with an alien species, reliving the same brutal battle over and over again.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Blade Runner 2049.jpg" alt="Blade Runner 2049" loading="lazy">
+                        <div class="movie-info">
+                            <h3>Blade Runner 2049</h3>
+                            <div class="meta">Sci-Fi | R | 2017</div>
+                            <p class="director"><strong>Director:</strong> Denis Villeneuve</p>
+                            <p class="cast"><strong>Cast:</strong> Ryan Gosling, Harrison Ford, Ana de Armas</p>
+                            <p>A young blade runner discovers a long-buried secret that could unravel society, leading him to find Rick Deckard, a former blade runner who has been missing for 30 years.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Arrival.jpg" alt="Arrival">
+                        <div class="movie-info">
+                            <h3>Arrival</h3>
+                            <div class="meta">Sci-Fi | PG-13 | 2016</div>
+                            <p class="director"><strong>Director:</strong> Denis Villeneuve</p>
+                            <p class="cast"><strong>Cast:</strong> Amy Adams, Jeremy Renner, Forest Whitaker</p>
+                            <p>A linguist is recruited to help communicate with extraterrestrial visitors to Earth, leading to a new understanding of time and language.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Tenet.jpg" alt="Tenet">
+                        <div class="movie-info">
+                            <h3>Tenet</h3>
+                            <div class="meta">Sci-Fi | PG-13 | 2020</div>
+                            <p class="director"><strong>Director:</strong> Christopher Nolan</p>
+                            <p class="cast"><strong>Cast:</strong> John David Washington, Robert Pattinson, Elizabeth Debicki</p>
+                            <p>A secret agent embarks on a time-bending mission to prevent the end of the world, with the ability to manipulate time itself.</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../images/Dune.jpg" alt="Dune">
+                        <div class="movie-info">
+                            <h3>Dune</h3>
+                            <div class="meta">Sci-Fi | PG-13 | 2021</div>
+                            <p class="director"><strong>Director:</strong> Denis Villeneuve</p>
+                            <p class="cast"><strong>Cast:</strong> Timothée Chalamet, Zendaya, Oscar Isaac</p>
+                            <p>A young nobleman becomes embroiled in a power struggle over the desert planet Arrakis, which is the only source of a powerful resource called "spice."</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    
+            <button class="nav-arrow right" onclick="scrollMovies('right', 'sci-fi-movies')" data-target="sci-fi-movies">
+                <span class="material-symbols-outlined notranslate">chevron_right</span>
+            </button>
+        </div>
+    </section>
+    
+
+<my-footer></my-footer>
+
+
+
+    </body>
+
+
+    </html>
+
+<!-- Trailer Modal -->
+<div id="trailerModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <video id="trailerVideo" controls>
+            <source src="" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+</div>
