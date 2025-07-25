@@ -8,10 +8,121 @@ header {
     align-items: center;
     max-height: 300px;
     gap: 5;
-    background-color: #222; 
+    background-color: #333; 
     position: relative;
 }
 
+/* Theme Toggle Styles */
+.theme-toggle-container {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.toggle-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+    height: 30px;
+    padding: 0 5px;
+    background-color:gray;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all 0.3s cubic-bezier(.39,.575,.565,1);
+}
+
+body.dark-mode #language 
+{
+    color: black;
+    background-color: white;
+    height: 25px;
+    font-size: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+body.light-mode #language {
+    color:White;
+    background-color:#1c2e4a85;
+    height: 25px;
+    font-size: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+body.light-mode .toggle-button {
+    background-color:#ddd;
+}
+
+.toggle-button .toggle-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.toggle-button .toggle-icon svg {
+    width: 16px;
+    height: 16px;
+}
+
+.toggle-button .moon svg {
+    stroke: #f1c40f;
+    fill: transparent;
+}
+
+.toggle-button .sun svg {
+    stroke: #f39c12;
+    fill: transparent;
+}
+
+.toggle-button-slider {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    z-index: 0;
+}
+
+.toggle-button.dark .toggle-button-slider {
+    transform: translateX(30px);
+}
+
+/* Light Mode Styles */
+body.light-mode {
+    background-color: #f0f0f0;
+}
+
+body.light-mode .header-unscrolled .navigation a {
+    color: #333;
+}
+  
+body.light-mode .header-unscrolled .navigation a:hover {
+    color: #333;
+}
+  
+body.light-mode .header-unscrolled .logo-unscrolled {
+    color: #333;
+}
+
+body.light-mode .searchField,
+body.light-mode .search,body.light-mode .searchField::placeholder {
+    color: #333;
+}
+
+body.dark-mode {
+    background-color: #000;
+}
 
   
 .navigation-items {

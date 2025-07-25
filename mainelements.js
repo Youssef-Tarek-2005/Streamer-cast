@@ -35,9 +35,18 @@ class MyHeader extends HTMLElement {
           <div id="google_translate_element"></div>
         </div>
 
+         <button id="toggle-button" class="toggle-button" data-theme-toggle aria-label="Toggle light and dark mode">
+            <span class="toggle-icon sun"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/></svg></span>
+            <span class="toggle-icon moon"><svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z"/></svg></span>
+            <span class="toggle-button-slider"></span>
+        </button>
+
         <div class="signin-container">
           <a href="sign-in.html" class="signin-btn" id="Sign-In">Sign In</a>
         </div>
+
+       
+
       </header>
     `;
   }
@@ -260,4 +269,3 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
-
